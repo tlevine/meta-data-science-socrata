@@ -137,6 +137,19 @@ Title is not unique
 
 ![](unique-title.png)
 
+
+### One web application
+With a some software, you have many different installations that might be able to communicate with each other.
+
+* Wordpress
+* CKAN
+
+With other software, a single web application runs everything.
+
+* Tumblr
+* Socrata
+
+
 ## Things to consider
 
 * What if the different portals were more connected?
