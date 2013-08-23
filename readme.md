@@ -12,7 +12,7 @@ Thomas Levine
 ## Outline
 
 1. Data science mindset
-2. Things I learned about open data
+2. Data science about open data
 3. Things I learned about Socrata
 4. Things to consider
 
@@ -72,7 +72,58 @@ much about how or even whether you're going to analyze it.
 
 
 
-## Things I learned about open data
+## Data science about open data
+
+### How I did it
+
+#### Store everything
+<!--
+Most of the work was already done for me; people had connected
+siloed government data into Socrata portals, and I just needed
+to get it out. But I did get it out and store it on S3.
+-->
+
+#### Anything can be counted
+<!--
+I think people thing of "metadata" as something you don't analyze quantitatively.
+
+* Title
+* Description
+* Tags
+
+But this is also metadata:
+
+* Whether the title contains a particular word
+* Number of rows, columns
+* View counts
+* Number of tags
+
+-->
+
+### Numbers can be turned into anything
+
+* http://fms.csvsoundsystem.com
+* http://thomaslevine.com/!/ridership-rachenitsa
+* http://github.com/csv/gastronomify
+* Data cookies
+
+
+### Boring work should be sent to robots
+<!--
+-->
+
+* Automatic and unobtrusive data collection---not questionnaires
+* You don't need full-fleged research plan before you start collecting data.
+* All analyses should be scripted.
+
+### Get more data rather than tuning your model
+
+
+
+
+
+
+
 
 
 ### Benefits of a data portal
@@ -97,7 +148,7 @@ and they only know about the particular portals they help manage.
 -->
 
 
-### Data provenance
+#### Data provenance
 
 > Every view on Socrata has an "owner" and a "table author".
 > What's an owner, and what's a table author?
@@ -108,7 +159,7 @@ Answer: XXX The view type diagram
 Also note that this is not very strongly presented in the interface and that this makes it hard to tell which views are official
 
 
-### API limits
+#### API limits
 
 > What are Socrata's API limits?
 
@@ -122,7 +173,7 @@ Related:
 * They all go down at once.
 
 
-### Form validation
+#### Form validation
 What must be true about the form fields?
 
 [!["Suggest a Dataset" form](form-validation.png)](https://data.seattle.gov/nominate)
@@ -138,7 +189,7 @@ Title is not unique
 ![](unique-title.png)
 
 
-### One web application
+#### One web application
 With a some software, you have many different installations that might be able to communicate with each other.
 
 * Wordpress
