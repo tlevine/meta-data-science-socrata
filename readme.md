@@ -122,6 +122,21 @@ Related:
 * They all go down at once.
 
 
+### Form validation
+What must be true about the form fields?
+
+[!["Suggest a Dataset" form](form-validation.png)](https://data.seattle.gov/nominate)
+
+
+<!--
+Has a title
+Title is not unique
+-->
+
+
+
+![](unique-title.png)
+
 ## Things to consider
 
 * What if the different portals were more connected?
