@@ -64,14 +64,34 @@ much about how or even whether you're going to analyze it.
 
 
 
+## Things I learned about open data
 
-## Things I learned about Socrata
 
-### Things that took me a while to understand
+### Benefits of a data portal
 
-* Federation
+1. Import data from various formats.
+2. Standard way of discovering datasets.
+3. Convert data to standard formats.
+4. Mark datasets as official in some sense.
+
+### Nobody knows what's on the portals
+The only people who sort of know are people who help manage portals,
+and they only know about the particular portals they help manage.
+
+
+## Things I learned about Socrata Open Data Portal
+
+1. Federation
+2. Everything runs from the same application
+3. It has analysis tools.
+4. Nobody uses the analysis tools.
+
+### Federation
+
+### Confusing things
 * Who owns a view, and which views are official?
-* Everything runs from the same application
+
+### It's more than a file server; it has analysis tools.
 
 ### One web application
 It looks like everything is run through the same web application
