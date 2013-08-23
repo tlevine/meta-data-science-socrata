@@ -82,6 +82,8 @@ Most of the work was already done for me; people had connected
 siloed government data into Socrata portals, and I just needed
 to get it out. But I did get it out and store it on S3.
 -->
+![Architecture of the Socrata downloader](architecture.jpg)
+
 
 #### Anything can be counted
 <!--
@@ -99,16 +101,20 @@ But this is also metadata:
 * Number of tags
 
 -->
+I often run queries like this
 
-### Numbers can be turned into anything
+    SELECT * FROM socrata WHERE ncol > 20 AND nrow > 10000 AND viewCount < 1000
+
+#### Numbers can be turned into anything
 
 * http://fms.csvsoundsystem.com
 * http://thomaslevine.com/!/ridership-rachenitsa
 * http://github.com/csv/gastronomify
 * Data cookies
 
+AppGen
 
-### Boring work should be sent to robots
+#### Boring work should be sent to robots
 <!--
 -->
 
@@ -116,10 +122,11 @@ But this is also metadata:
 * You don't need full-fleged research plan before you start collecting data.
 * All analyses should be scripted.
 
-### Get more data rather than tuning your model
+#### Get more data rather than tuning your model
 
 
 
+### What I learned
 
 
 
