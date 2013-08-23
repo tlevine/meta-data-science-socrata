@@ -190,6 +190,7 @@ Answer: XXX The view type diagram
 Also note that this is not very strongly presented in the interface and that this makes it hard to tell which views are official
 -->
 
+
 ### API limits
 
 > What are Socrata's API limits?
@@ -209,6 +210,7 @@ I don't know, but they apply across all portals.
 
 
 ### One web application
+
 With a some software, you have many different installations that might be able to communicate with each other.
 
 * Wordpress
@@ -226,6 +228,7 @@ Related:
 * They all go down at once.
 -->
 
+
 ## How people use Socrata
 
 
@@ -241,14 +244,15 @@ Related:
 
 ### But not really.
 
-* http://thomaslevine.com/!/socrata-users#also-no-tables
-* http://thomaslevine.com/!/socrata-users#with-a-profile-image
+* [Bots](http://thomaslevine.com/!/socrata-users#also-no-tables)
+* [Few users with many views](http://thomaslevine.com/!/socrata-users#with-a-profile-image)
+* [VinylFox](https://twitter.com/VinylFox/status/362001457626611715)
 
 
 [![VinylFox tweet](vinylfox.png)](https://twitter.com/VinylFox/status/362001457626611715)
 
 
-# Benefits of a data portal
+# Benefits of the data portal
 
 (As I see it)
 
@@ -257,20 +261,23 @@ Related:
 3. Convert data to standard formats.
 4. Mark datasets as official in some sense.
 
+But not a lot of analysis
+
 
 # Things to consider
 
-Data science
+### Data science
 
 * Store/expose everything
 * Datasets are data points, and metadata is data
 * You can automate human work, even if it seems complicated.
 
-Socrata
+### Socrata
 
 * What if the different portals were more connected?
     <!-- Currently, Socrata sort of fakes having separate applications. Having everything in the same application has different benefits from having separate applications, and maybe you can make use of them. -->
 * Are the analysis tools important?
+
 
 
 # References
