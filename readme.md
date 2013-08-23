@@ -62,12 +62,9 @@ much about how or even whether you're going to analyze it.
 
 
 ## Boring work should be sent to robots
-<!--
--->
 
-
-* Computers can perform mindless tasks, just like people can.
-* Computers can also make coomplex decisions, just like people can.
+* Computers can perform mindless tasks <!-- , just like people can. -->
+* Computers can also make complex decisions <!--, just like people can. -->
 * All analyses should be scripted.
 
 ## Get more data rather than tuning your model
@@ -85,20 +82,28 @@ much about how or even whether you're going to analyze it.
 ![Banko & Brill](Datado.058.png)
 
 
+
 # Data science about open data
 
-## How I did it
+1. How I did it
+2. What I learned
 
-### Store everything
+
+# How I did it
+Data science!
+
+
+## Store everything
 <!--
 Most of the work was already done for me; people had connected
 siloed government data into Socrata portals, and I just needed
 to get it out. But I did get it out and store it on S3.
 -->
+
 ![Architecture of the Socrata downloader](architecture.jpg)
 
 
-### Anything can be counted
+## Anything can be counted
 <!--
 I think people thing of "metadata" as something you don't analyze quantitatively.
 
@@ -120,56 +125,46 @@ But this is also metadata:
 ![When datasets got uploaded](datasets_when_uploaded.png)
 
 
-### Numbers can be turned into anything
+## Numbers can be turned into anything
 
 [AppGen](http://www.appgen.me/browse)
 
-### Boring work should be sent to robots
+
+## Boring work should be sent to robots
 <!--
 My colleague Jonathan played with the Site Analytics page
 for the San Francisco portal and found something strange.
 This diagram shows how we could detect something programmatically.
 -->
 
-
 [Site analytics](Datado.033.png)
 
 [Scripted analyses](https://github.com/tlevine/socrata-analysis/tree/master/numbers)
 
-### Get more data rather than tuning your model
+
+## Get more data rather than tuning your model
+
+* Metadata files (SODA 1 API)
+* CSV datasets (only for New York)
+* [Find users from datasets](http://thomaslevine.com/!/socrata-users)
+* [Site metrics](http://thomaslevine.com/!/socrata-metrics-api/)
+* [Other portal software](http://openprism.thomaslevine.com)
 
 
+# What I learned
 
-## What I learned
+1. Nobody knows much
+2. How Socrata Open Data portal is constructed
+2. How people use Socrata Open Data portal
 
+## What people know
 
-
-
-
-
-## Benefits of a data portal
-
-1. Import data from various formats.
-2. Standard way of discovering datasets.
-3. Convert data to standard formats.
-4. Mark datasets as official in some sense.
-
-## Nobody knows what's on the portals
-The only people who sort of know are people who help manage portals,
-and they only know about the particular portals they help manage.
+* Portal administrators
+* Portal developers
+* Anecdotes
 
 
-# Things I learned about Socrata Open Data Portal
-
-<!--
-1. Federation
-2. Everything runs from the same application
-3. It has analysis tools.
-4. Nobody uses the analysis tools.
--->
-
-
-## Construction
+## Construction of Socrata Open Data Portal
 
 
 ### Data provenance
@@ -178,36 +173,26 @@ and they only know about the particular portals they help manage.
 > What's an owner, and what's a table author?
 
 
+![](family.jpg)
 
+<!--
 Answer: XXX The view type diagram
 Also note that this is not very strongly presented in the interface and that this makes it hard to tell which views are official
-
+-->
 
 ### API limits
 
 > What are Socrata's API limits?
 
 
-
 I don't know, but they apply across all portals.
-It looks like everything is run through the same web application.
-Related:
-
-* Geocoding
-* They all go down at once.
 
 
 ### Form validation
-What must be true about the form fields?
+
+> What must be true about the form fields?
 
 [!["Suggest a Dataset" form](form-validation.png)](https://data.seattle.gov/nominate)
-
-
-<!--
-Has a title
-Title is not unique
--->
-
 
 
 ![](unique-title.png)
@@ -224,39 +209,62 @@ With other software, a single web application runs everything.
 * Tumblr
 * Socrata
 
+<!--
+Related:
+
+* Geocoding
+* They all go down at once.
+-->
 
 ## How people use Socrata
 
+
 ### Analysis tools exist.
+
 ![](family.jpg)
 
 
-
 ### People use them.
+
 ![](hits.png)
 
 
-
 ### But not really.
+
 * http://thomaslevine.com/!/socrata-users#also-no-tables
 * http://thomaslevine.com/!/socrata-users#with-a-profile-image
-
 
 
 [![VinylFox tweet](vinylfox.png)](https://twitter.com/VinylFox/status/362001457626611715)
 
 
+# Benefits of a data portal
+
+(As I see it)
+
+1. Import data from various formats.
+2. Standard way of discovering datasets.
+3. Convert data to standard formats.
+4. Mark datasets as official in some sense.
+
 
 # Things to consider
 
+Data science
+
+* Store/expose everything
+* Datasets are data points, and metadata is data
+* You can automate human work, even if it seems complicated.
+
+Socrata
+
 * What if the different portals were more connected?
     <!-- Currently, Socrata sort of fakes having separate applications. Having everything in the same application has different benefits from having separate applications, and maybe you can make use of them. -->
-* Should Socrata Open Data Portal be faster?
-    (Making it faster might qualitatively change how people use it.)
 * Are the analysis tools important?
 
 
 # References
+
 * [My articles about open data](http://thomaslevine.com/socrata)
 * [Most of the source code](https://github.com/tlevine/socrata-analysis/)
 * [Data Donuts](http://zipfianacademy.com/presos/)
