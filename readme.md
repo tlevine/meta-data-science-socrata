@@ -2,15 +2,19 @@ Meta Data Science
 ==================
 Thomas Levine
 
+## Meta data science
+
+* Data science about data science?
+* Science about metadata?
 
 
-## 
+
+## Outline
 
 1. Data science mindset
 2. Things I learned about open data
 3. Things I learned about Socrata
 4. Things to consider
-
 
 
 ## Data science mindset
@@ -23,6 +27,10 @@ Thomas Levine
 3. Numbers can be turned into anything.
 4. Boring work should be sent to robots.
 5. Get more data rather than tuning your model.
+
+<!--
+And this is what I was doing with the Socrata data
+-->
 
 
 ### Store everything
@@ -81,25 +89,37 @@ and they only know about the particular portals they help manage.
 
 ## Things I learned about Socrata Open Data Portal
 
+<!--
 1. Federation
 2. Everything runs from the same application
 3. It has analysis tools.
 4. Nobody uses the analysis tools.
+-->
 
-### Federation
 
-### Confusing things
-* Who owns a view, and which views are official?
+### Data provenance
 
-### It's more than a file server; it has analysis tools.
-View type diagram
+> Every view on Socrata has an "owner" and a "table author".
+> What's an owner, and what's a table author?
 
-### One web application
-It looks like everything is run through the same web application
 
-* API limits apply across portals
-* Geocoding is slow
-* They all go down at once
+
+Answer: XXX The view type diagram
+Also note that this is not very strongly presented in the interface and that this makes it hard to tell which views are official
+
+
+### API limits
+
+> What are Socrata's API limits?
+
+
+
+I don't know, but they apply across all portals.
+It looks like everything is run through the same web application.
+Related:
+
+* Geocoding
+* They all go down at once.
 
 
 ## Things to consider
