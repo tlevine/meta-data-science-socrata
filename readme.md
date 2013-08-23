@@ -47,18 +47,18 @@ much about how or even whether you're going to analyze it.
 ## Anything can be counted
 
 * [Scans of letters](http://scott.thomaslevine.com)
-* [Turnstiles](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
 * [Bikes](http://www.capitalbikeshare.com/system-data)
+* [Turnstiles](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
 * [Comments on rulemaking dockets](http://docketwrench.sunlightfoundation.com/)
   <!-- http://overview.ap.org/blog/2013/05/video-text-analysis-in-transparency/ -->
 
 
 ## Numbers can be turned into anything
 
-* http://fms.csvsoundsystem.com
-* http://thomaslevine.com/!/ridership-rachenitsa
-* http://github.com/csv/gastronomify
-* Data cookies
+* [FMS Symphony](http://fms.csvsoundsystem.com)
+* [Ridership Rachenitsa](http://thomaslevine.com/!/ridership-rachenitsa)
+* [gastronomify](http://github.com/csv/gastronomify)
+* [Data](https://twitter.com/melsmo/status/352240097049071616) [cookies](https://twitter.com/internetrebecca/status/352955293291913217)
 
 
 ## Boring work should be sent to robots
