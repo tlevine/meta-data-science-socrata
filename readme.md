@@ -60,16 +60,27 @@ much about how or even whether you're going to analyze it.
 <!--
 -->
 
-* Automatic and unobtrusive data collection---not questionnaires
-* You don't need full-fleged research plan before you start collecting data.
+
+[Site analytics](Datado.033.png)
+
+
+* Computers can perform mindless tasks, just like people can.
+* Computers can also make coomplex decisions, just like people can.
 * All analyses should be scripted.
 
 ### Get more data rather than tuning your model
 
+<!--
 * When I'm asked a question about the world, I adapt the question so that it can
     be approximately answered with an existing and convenient dataset.
 * I look for opportunities to use existing stores of data in unintended ways.
+-->
+* Adapt your question so it can be answered by existing data sources.
+* Look for new ways of using existing data sources.
+* Collect more rows.
 
+
+![Banko & Brill](Datado.058.png)
 
 
 ## Data science about open data
@@ -115,9 +126,9 @@ But this is also metadata:
 <!--
 -->
 
-* openprism.thomaslevine.com
-* You don't need full-fleged research plan before you start collecting data.
-* All analyses should be scripted.
+* http://openprism.thomaslevine.com
+* I started without a full-fleged research plan <!--I only figured out what was in the data after I finished downloading them.-->
+* [Scripted analyses](https://github.com/tlevine/socrata-analysis/tree/master/numbers)
 
 #### Get more data rather than tuning your model
 
@@ -212,3 +223,11 @@ With other software, a single web application runs everything.
 * Should Socrata Open Data Portal be faster?
     (Making it faster might qualitatively change how people use it.)
 * Are the analysis tools important?
+
+
+## References
+* [My articles about open data](http://thomaslevine.com/socrata)
+* [Most of the source code](https://github.com/tlevine/socrata-analysis/)
+* [Data Donuts](http://zipfianacademy.com/presos/)
+* [CSV Soundsystem](http://csvsoundsystem.com)
+
