@@ -92,6 +92,7 @@ and they only know about the particular portals they help manage.
 * Who owns a view, and which views are official?
 
 ### It's more than a file server; it has analysis tools.
+View type diagram
 
 ### One web application
 It looks like everything is run through the same web application
