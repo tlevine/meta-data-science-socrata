@@ -61,9 +61,6 @@ much about how or even whether you're going to analyze it.
 -->
 
 
-[Site analytics](Datado.033.png)
-
-
 * Computers can perform mindless tasks, just like people can.
 * Computers can also make coomplex decisions, just like people can.
 * All analyses should be scripted.
@@ -124,11 +121,15 @@ But this is also metadata:
 
 #### Boring work should be sent to robots
 <!--
+My colleague Jonathan played with the Site Analytics page
+for the San Francisco portal and found something strange.
+This diagram shows how we could detect something programmatically.
 -->
 
-* http://openprism.thomaslevine.com
-* I started without a full-fleged research plan <!--I only figured out what was in the data after I finished downloading them.-->
-* [Scripted analyses](https://github.com/tlevine/socrata-analysis/tree/master/numbers)
+
+[Site analytics](Datado.033.png)
+
+[Scripted analyses](https://github.com/tlevine/socrata-analysis/tree/master/numbers)
 
 #### Get more data rather than tuning your model
 
