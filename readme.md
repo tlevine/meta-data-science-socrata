@@ -7,8 +7,8 @@ Thomas Levine
 ## 
 
 1. Data science mindset
-2. What I learned about open data
-3. What I learned about Socrata
+2. Things I learned about open data
+3. Things I learned about Socrata
 4. Things to consider
 
 
@@ -107,3 +107,4 @@ It looks like everything is run through the same web application
     <!-- Currently, Socrata sort of fakes having separate applications. Having everything in the same application has different benefits from having separate applications, and maybe you can make use of them. -->
 * Should Socrata Open Data Portal be faster?
     (Making it faster might qualitatively change how people use it.)
+* Are the analysis tools important?
