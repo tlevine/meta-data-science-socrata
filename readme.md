@@ -24,6 +24,18 @@ much about how or even whether you're going to analyze it.
 ## Anything can be counted
 <!--
 -->
+* http://scott.thomaslevine.com
+* http://atlanticcities.com ...
+* NLP
+
+
+### Numbers can be turned into anything
+
+* http://fms.csvsoundsystem.com
+* http://thomaslevine.com/!/ridership-rachenitsa
+* http://github.com/csv/gastronomify
+* Data cookies
+
 
 ## Boring work should be sent to robots
 <!--
