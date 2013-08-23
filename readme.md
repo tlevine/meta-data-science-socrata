@@ -5,15 +5,17 @@ Thomas Levine
 
 # Meta data science
 
-* Data science about data science?
-* Science about metadata?
+Datasets on [Socrata portals](https://data.seattle.gov) feel like files rather than data.
+
+* Data science about data science
+* Science about metadata
 
 
 # Outline
 
-1. Data science mindset
-2. Data science about open data
-3. Things I learned about Socrata
+1. Data science mindset <!-- or just my mindset -->
+2. What I did
+3. What I learned <!-- construction and usage -->
 4. Things to consider
 
 
@@ -67,6 +69,7 @@ much about how or even whether you're going to analyze it.
 * Computers can also make complex decisions <!--, just like people can. -->
 * All analyses should be scripted.
 
+
 ## Get more data rather than tuning your model
 
 <!--
@@ -74,23 +77,23 @@ much about how or even whether you're going to analyze it.
     be approximately answered with an existing and convenient dataset.
 * I look for opportunities to use existing stores of data in unintended ways.
 -->
-* Adapt your question so it can be answered by existing data sources.
-* Look for new ways of using existing data sources.
-* Collect more rows.
+
+* Modeling problems versus computation/storage problems
+* Confidence versus validity
 
 
 ![Banko & Brill](Datado.058.png)
 
 
-
-# Data science about open data
-
-1. How I did it
-2. What I learned
+* Don't collect new data to answer your new questions.
+* Look for new ways of using existing data sources.
+* Store raw data! Don't aggregate prematurely.
 
 
-# How I did it
-Data science!
+
+# What I did
+
+Data science about open data
 
 
 ## Store everything
@@ -104,6 +107,7 @@ to get it out. But I did get it out and store it on S3.
 
 
 ## Anything can be counted
+
 <!--
 I think people thing of "metadata" as something you don't analyze quantitatively.
 
@@ -119,6 +123,7 @@ But this is also metadata:
 * Number of tags
 
 -->
+
 ![Public meetings by day of week](day-of-week.png)
 
 
@@ -151,11 +156,13 @@ This diagram shows how we could detect something programmatically.
 * [Other portal software](http://openprism.thomaslevine.com)
 
 
+
 # What I learned
 
 1. Nobody knows much
 2. How Socrata Open Data portal is constructed
 2. How people use Socrata Open Data portal
+
 
 ## What people know
 
@@ -171,6 +178,9 @@ This diagram shows how we could detect something programmatically.
 
 > Every view on Socrata has an "owner" and a "table author".
 > What's an owner, and what's a table author?
+
+
+![](user-model.jpg)
 
 
 ![](family.jpg)
