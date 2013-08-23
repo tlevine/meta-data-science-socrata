@@ -101,24 +101,21 @@ But this is also metadata:
 * Number of tags
 
 -->
-I often run queries like this
+![Public meetings by day of week](day-of-week.png)
 
-    SELECT * FROM socrata WHERE ncol > 20 AND nrow > 10000 AND viewCount < 1000
+
+![When datasets got uploaded](datasets_when_uploaded.png)
+
 
 #### Numbers can be turned into anything
 
-* http://fms.csvsoundsystem.com
-* http://thomaslevine.com/!/ridership-rachenitsa
-* http://github.com/csv/gastronomify
-* Data cookies
-
-AppGen
+[AppGen](http://www.appgen.me/browse)
 
 #### Boring work should be sent to robots
 <!--
 -->
 
-* Automatic and unobtrusive data collection---not questionnaires
+* openprism.thomaslevine.com
 * You don't need full-fleged research plan before you start collecting data.
 * All analyses should be scripted.
 
