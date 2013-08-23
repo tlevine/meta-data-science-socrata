@@ -164,6 +164,9 @@ and they only know about the particular portals they help manage.
 -->
 
 
+### Construction
+
+
 #### Data provenance
 
 > Every view on Socrata has an "owner" and a "table author".
@@ -215,6 +218,28 @@ With other software, a single web application runs everything.
 
 * Tumblr
 * Socrata
+
+
+### How people use Socrata
+
+#### Analysis tools exist.
+![](family.jpg)
+
+
+
+#### People use them.
+![](hits.png)
+
+
+
+#### But not really.
+* http://thomaslevine.com/!/socrata-users#also-no-tables
+* http://thomaslevine.com/!/socrata-users#with-a-profile-image
+
+
+
+[![VinylFox tweet](vinylfox.png)](https://twitter.com/VinylFox/status/362001457626611715)
+
 
 
 ## Things to consider
