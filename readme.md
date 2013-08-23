@@ -49,7 +49,8 @@ much about how or even whether you're going to analyze it.
 * [Scans of letters](http://scott.thomaslevine.com)
 * [Turnstiles](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
 * [Bikes](http://www.capitalbikeshare.com/system-data)
-* NLP
+* [Comments on rulemaking dockets](http://docketwrench.sunlightfoundation.com/)
+  <!-- http://overview.ap.org/blog/2013/05/video-text-analysis-in-transparency/ -->
 
 
 ## Numbers can be turned into anything
